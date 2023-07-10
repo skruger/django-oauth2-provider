@@ -56,7 +56,7 @@ class Client(models.Model):
 
 
 class Scope(models.Model):
-    name = models.CharField(max_length=50, primary_key=True)
+    name = models.CharField(max_length=150, primary_key=True)  # This length can't change due to a django bug
     description = models.CharField(max_length=256, default='', blank=True)
 
     def __unicode__(self):
