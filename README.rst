@@ -1,7 +1,9 @@
 django-oauth2
 ======================
 
-.. image:: https://travis-ci.org/stormsherpa/django-oauth2-provider.png?branch=master
+This copy of the repository has been retired! It contains the pull request and release history
+since it was forked from caffeinehit/django-oauth2-provider. The current authoritative copy of
+this repo is in stormsherpa/django-oauth2-provider.
 
 *django-oauth2* is a Django application that provides
 customizable OAuth2\-authentication for your Django projects.
